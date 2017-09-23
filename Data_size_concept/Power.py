@@ -9,5 +9,5 @@ def Power():
         start_time = time.time()
         sum(x for x in range(1, n+1))
         end_time = time.time()
-        print("10^%d:%fs"%(i, (end_time-start_time)))
+        print("10^%d:%fs" % (i, (end_time-start_time)))
 Power()
